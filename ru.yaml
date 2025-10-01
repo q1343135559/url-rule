@@ -1,0 +1,106 @@
+payload:
+  # Yandex 生态 / 服务
+  - DOMAIN-SUFFIX,yandex.ru
+  - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,yandex.net
+  - DOMAIN-SUFFIX,yandex.ua
+  - DOMAIN-SUFFIX,yandex.by
+  - DOMAIN-SUFFIX,yandex.kz
+  - DOMAIN-SUFFIX,yandex.az
+  - DOMAIN-SUFFIX,yandex.lt
+  - DOMAIN-SUFFIX,yandex.lv
+  - DOMAIN-SUFFIX,yandex.ee
+  - DOMAIN-SUFFIX,yandex.uz
+  - DOMAIN-SUFFIX,yandex.md
+  - DOMAIN-SUFFIX,yandex.ge
+  - DOMAIN-SUFFIX,yandex.co.il
+  - DOMAIN-SUFFIX,yandex.kg
+  - DOMAIN-SUFFIX,yandex.tj
+  - DOMAIN-SUFFIX,yandex.tm
+  - DOMAIN-SUFFIX,yandex.am
+  - DOMAIN-SUFFIX,yandex.com.tr
+  - DOMAIN-SUFFIX,yastatic.net
+  
+  # Yandex 子服务
+  - DOMAIN-SUFFIX,market.yandex.ru
+  - DOMAIN-SUFFIX,ya.ru
+  - DOMAIN-SUFFIX,yandexcloud.net
+  - DOMAIN-SUFFIX,yandex-team.ru
+   
+  # Kinopoisk (Yandex 影视)
+  - DOMAIN-SUFFIX,kinopoisk.ru
+  - DOMAIN-SUFFIX,kinopoisk.by
+  - DOMAIN-SUFFIX,kinopoisk.ua
+  - DOMAIN-SUFFIX,kinopoisk.kz
+   
+  # 社交 / 通讯
+  - DOMAIN-SUFFIX,vk.com
+  - DOMAIN-SUFFIX,vk.me
+  - DOMAIN-SUFFIX,vkontakte.ru
+  - DOMAIN-SUFFIX,ok.ru
+  - DOMAIN-SUFFIX,odnoklassniki.ru
+  - DOMAIN-SUFFIX,mail.ru
+  - DOMAIN-SUFFIX,rambler.ru
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,t.me
+   
+  # 电商 / 二手交易
+  - DOMAIN-SUFFIX,ozon.ru
+  - DOMAIN-SUFFIX,wildberries.ru
+  - DOMAIN-SUFFIX,wb.ru
+  - DOMAIN-SUFFIX,wbstatic.net
+  - DOMAIN-SUFFIX,static.wb.ru
+  - DOMAIN-SUFFIX,aliexpress.ru
+  - DOMAIN-SUFFIX,avito.ru
+  - DOMAIN-SUFFIX,drom.ru
+  - DOMAIN-SUFFIX,irr.ru
+  - DOMAIN-SUFFIX,lamoda.ru
+  - DOMAIN-SUFFIX,goods.ru
+  - DOMAIN-SUFFIX,citilink.ru
+  - DOMAIN-SUFFIX,sbermarket.ru
+   
+  # 新闻 / 媒体
+  - DOMAIN-SUFFIX,lenta.ru
+  - DOMAIN-SUFFIX,rt.com
+  - DOMAIN-SUFFIX,sputniknews.com
+  - DOMAIN-SUFFIX,sputniknews.ru
+  - DOMAIN-SUFFIX,ria.ru
+  - DOMAIN-SUFFIX,riafan.ru
+  - DOMAIN-SUFFIX,gazeta.ru
+  - DOMAIN-SUFFIX,rbc.ru
+  - DOMAIN-SUFFIX,vesti.ru
+  - DOMAIN-SUFFIX,kommersant.ru
+  - DOMAIN-SUFFIX,vedomosti.ru
+  - DOMAIN-SUFFIX,tass.ru
+  - DOMAIN-SUFFIX,interfax.ru
+   
+  # 视频 / 流媒体
+  - DOMAIN-SUFFIX,kinopoisk.ru
+  - DOMAIN-SUFFIX,ivi.ru
+  - DOMAIN-SUFFIX,okko.tv
+  - DOMAIN-SUFFIX,rutube.ru
+  - DOMAIN-SUFFIX,more.tv
+  - DOMAIN-SUFFIX,kinozal.tv
+  - DOMAIN-SUFFIX,megogo.ru
+   
+  # 金融 / 支付
+  - DOMAIN-SUFFIX,sber.ru
+  - DOMAIN-SUFFIX,sberbank.ru
+  - DOMAIN-SUFFIX,tinkoff.ru
+  - DOMAIN-SUFFIX,alfabank.ru
+  - DOMAIN-SUFFIX,vtb.ru
+  - DOMAIN-SUFFIX,yoomoney.ru
+  - DOMAIN-SUFFIX,qiwi.com
+   
+  # 政府 / 官方服务
+  - DOMAIN-SUFFIX,gosuslugi.ru
+  - DOMAIN-SUFFIX,kremlin.ru
+  - DOMAIN-SUFFIX,mos.ru
+   
+  # 其他常见站点
+  - DOMAIN-SUFFIX,habr.com
+  - DOMAIN-SUFFIX,sports.ru
+  - DOMAIN-SUFFIX,spark.ru
+  - DOMAIN-SUFFIX,gazprom.ru
+  - DOMAIN-SUFFIX,rosneft.ru
+  - DOMAIN-SUFFIX,ru
