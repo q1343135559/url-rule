@@ -1,0 +1,11 @@
+name: 台湾负载均衡
+desc: 自动从所有节点中筛选名称包含“台湾”的节点，组成散列负载均衡组
+
+proxy-groups:
+  - name: "⚖️负载均衡-散列"
+    type: load-balance
+    strategy: consistent-hashing
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    include-all: true
+    filter: "台湾"
