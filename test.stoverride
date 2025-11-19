@@ -1,11 +1,60 @@
-name: 台湾负载均衡
-desc: 自动从所有节点中筛选名称包含“台湾”的节点，组成散列负载均衡组
+name: 地区分组
+desc: 自动从所有节点中根据地区进行分组
 
 proxy-groups:
-  - name: "⚖️负载均衡-散列"
-    type: load-balance
+  - name: "台湾分组"
+    type: urt-test
     strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
     filter: "台湾"
+
+proxy-groups:
+  - name: "新加坡分组"
+    type: urt-test
+    strategy: consistent-hashing
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    include-all: true
+    filter: "新加披"
+
+proxy-groups:
+  - name: "香港分组"
+    type: load-balance
+    strategy: consistent-hashing
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    include-all: true
+    filter: "香港"
+
+proxy-groups:
+  - name: "日本分组"
+    type: urt-test
+    strategy: consistent-hashing
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    include-all: true
+    filter: "日本"
+
+proxy-groups:
+  - name: "美国分组"
+    type: urt-test
+    strategy: consistent-hashing
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    include-all: true
+    filter: "美国"
+
+proxy-groups:
+  - name: "俄罗斯分组"
+    type: urt-test
+    strategy: consistent-hashing
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    include-all: true
+    filter: "俄罗斯"
+
+- name: "地区分组"
+    proxies:
+      - 台湾分组
