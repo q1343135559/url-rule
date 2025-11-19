@@ -1,25 +1,23 @@
 name: 地区分组
-desc: 自动从所有节点中根据地区进行分组
+desc: 自动根据节点名称关键字生成各地区分组
 
 proxy-groups:
   - name: "台湾分组"
-    type: urt-test
+    type: url-test
     strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
     filter: "台湾"
 
-proxy-groups:
   - name: "新加坡分组"
-    type: urt-test
+    type: url-test
     strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
-    filter: "新加披"
+    filter: "新加坡"
 
-proxy-groups:
   - name: "香港分组"
     type: load-balance
     strategy: consistent-hashing
@@ -28,30 +26,26 @@ proxy-groups:
     include-all: true
     filter: "香港"
 
-proxy-groups:
   - name: "日本分组"
-    type: urt-test
+    type: url-test
     strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
     filter: "日本"
 
-proxy-groups:
   - name: "美国分组"
-    type: urt-test
+    type: url-test
     strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
     filter: "美国"
 
-proxy-groups:
   - name: "俄罗斯分组"
-    type: urt-test
+    type: url-test
     strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
     filter: "俄罗斯"
-
