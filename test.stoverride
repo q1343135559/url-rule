@@ -55,6 +55,3 @@ proxy-groups:
     include-all: true
     filter: "俄罗斯"
 
-- name: "地区分组"
-    proxies:
-      - 台湾分组
