@@ -4,7 +4,6 @@ desc: 自动根据节点名称关键字生成各地区分组
 proxy-groups:
   - name: "台湾分组"
     type: url-test
-    strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
@@ -12,7 +11,6 @@ proxy-groups:
 
   - name: "新加坡分组"
     type: url-test
-    strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
@@ -20,7 +18,6 @@ proxy-groups:
 
   - name: "香港分组"
     type: url-test
-    strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
@@ -28,7 +25,6 @@ proxy-groups:
 
   - name: "日本分组"
     type: url-test
-    strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
@@ -36,7 +32,6 @@ proxy-groups:
 
   - name: "美国分组"
     type: url-test
-    strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
@@ -44,7 +39,6 @@ proxy-groups:
 
   - name: "俄罗斯分组"
     type: url-test
-    strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
