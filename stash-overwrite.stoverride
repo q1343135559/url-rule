@@ -43,3 +43,7 @@ proxy-groups:
     interval: 300
     include-all: true
     filter: "俄罗斯"
+
+rules:
+  - DOMAIN-SUFFIX,kuajing84.com,DIRECT
+  - DOMAIN-SUFFIX,jayogo.com,DIRECT
