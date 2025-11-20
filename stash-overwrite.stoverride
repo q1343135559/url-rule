@@ -45,8 +45,8 @@ proxy-groups:
     filter: "俄罗斯"
   
   - name: 狗狗加速.com
-    type: select
-    proxies:
+    <<: base.group.狗狗加速.com
+    proxies+:
       - 香港分组
       - 台湾分组
       - 新加坡分组
