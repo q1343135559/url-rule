@@ -19,7 +19,7 @@ proxy-groups:
     filter: "新加坡"
 
   - name: "香港分组"
-    type: lurl-test
+    type: url-test
     strategy: consistent-hashing
     url: "http://www.google.com/generate_204"
     interval: 300
