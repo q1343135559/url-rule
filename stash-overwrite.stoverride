@@ -44,6 +44,14 @@ proxy-groups:
     include-all: true
     filter: "俄罗斯"
 
+rule-providers:
+  ru-list:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/q1343135559/url-rule/main/ru.list
+    interval: 86400
+
 rules:
   - DOMAIN-SUFFIX,kuajing84.com,DIRECT
   - DOMAIN-SUFFIX,jayogo.com,DIRECT
+  - RULE-SET,ru-list,俄罗斯分组
