@@ -2,50 +2,28 @@ name: 地区分组
 desc: 自动根据节点名称关键字生成各地区分组
 
 proxy-groups:
-  - name: "台湾分组"
+  - name: "AI分组"
     type: url-test
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
-    filter: "台湾"
-
-  - name: "新加坡分组"
-    type: url-test
-    url: "http://www.google.com/generate_204"
-    interval: 300
-    include-all: true
-    filter: "新加坡"
-
-  - name: "香港分组"
-    type: url-test
-    url: "http://www.google.com/generate_204"
-    interval: 300
-    include-all: true
-    filter: "香港"
-
-  - name: "日本分组"
-    type: url-test
-    url: "http://www.google.com/generate_204"
-    interval: 300
-    include-all: true
-    filter: "日本"
-
-  - name: "美国分组"
-    type: url-test
-    url: "http://www.google.com/generate_204"
-    interval: 300
-    include-all: true
-    filter: "美国"
+    filter: "(?i)(台湾|Taiwan|新加坡|Singapore|美国|United States|USA|America|日本|Japan|韩国|Korea)"
 
   - name: "俄罗斯分组"
     type: url-test
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
-    filter: "俄罗斯"
+    filter: "(?i)(俄罗斯|Russia|Russian)"
 
     
 rule-providers:
+  ai-list:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/q1343135559/url-rule/refs/heads/main/OpenAI.list
+    interval: 86400
+
   ru-list:
     behavior: classical
     format: text
@@ -55,4 +33,5 @@ rule-providers:
 rules:
   - DOMAIN-SUFFIX,kuajing84.com,DIRECT
   - DOMAIN-SUFFIX,jayogo.com,DIRECT
+  - RULE-SET,ai-list,AI分组
   - RULE-SET,ru-list,俄罗斯分组
