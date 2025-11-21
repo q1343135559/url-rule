@@ -1,21 +1,22 @@
-name: 俄区分流规则
-desc: 俄区分流规则，若有俄区节点请开启
+name: AI分流规则
+desc: AI分流规则，也包括其他主要自定义的分流规则
 
 proxy-groups:
-  - name: "俄罗斯分组"
+  - name: "AI分组"
     type: url-test
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
-    filter: "(?i)(俄罗斯|Russia|Russian)"
-
-    
+    filter: "(?i)(台湾|Taiwan|新加坡|Singapore|美国|United States|USA|America|日本|Japan|韩国|Korea)"
+  
 rule-providers:
-  ru-list:
+  ai-list:
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/q1343135559/url-rule/main/ru.list
+    url: https://raw.githubusercontent.com/q1343135559/url-rule/refs/heads/main/OpenAI.list
     interval: 86400
 
 rules:
-  - RULE-SET,ru-list,俄罗斯分组
+  - DOMAIN-SUFFIX,kuajing84.com,DIRECT
+  - DOMAIN-SUFFIX,jayogo.com,DIRECT
+  - RULE-SET,ai-list,AI分组
