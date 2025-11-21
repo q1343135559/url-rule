@@ -1,14 +1,7 @@
-name: 地区分组
-desc: 自动根据节点名称关键字生成各地区分组
+name: 俄区分流规则
+desc: 俄区分流规则，若有俄区节点请开启
 
 proxy-groups:
-  - name: "AI分组"
-    type: url-test
-    url: "http://www.google.com/generate_204"
-    interval: 300
-    include-all: true
-    filter: "(?i)(台湾|Taiwan|新加坡|Singapore|美国|United States|USA|America|日本|Japan|韩国|Korea)"
-
   - name: "俄罗斯分组"
     type: url-test
     url: "http://www.google.com/generate_204"
@@ -18,12 +11,6 @@ proxy-groups:
 
     
 rule-providers:
-  ai-list:
-    behavior: classical
-    format: text
-    url: https://raw.githubusercontent.com/q1343135559/url-rule/refs/heads/main/OpenAI.list
-    interval: 86400
-
   ru-list:
     behavior: classical
     format: text
@@ -31,7 +18,4 @@ rule-providers:
     interval: 86400
 
 rules:
-  - DOMAIN-SUFFIX,kuajing84.com,DIRECT
-  - DOMAIN-SUFFIX,jayogo.com,DIRECT
-  - RULE-SET,ai-list,AI分组
   - RULE-SET,ru-list,俄罗斯分组
