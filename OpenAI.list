@@ -193,6 +193,37 @@ DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,x.ai
+# Gemini 主站
+DOMAIN-SUFFIX,gemini.google.com
+
+# Gemini API（核心）
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,gemini-pa.googleapis.com
+DOMAIN-SUFFIX,chat-pa.googleapis.com
+DOMAIN-SUFFIX,content-vision.googleapis.com
+
+# Google AI Studio
+DOMAIN-SUFFIX,aistudio.google.com
+
+# Google Cloud / AI 后端依赖
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,ml.googleapis.com
+DOMAIN-SUFFIX,storage.googleapis.com
+DOMAIN-SUFFIX,cloudresourcemanager.googleapis.com
+
+# Google 登录 / OAuth 必须放行
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,oauth2.googleapis.com
+DOMAIN-SUFFIX,securetoken.googleapis.com
+DOMAIN-SUFFIX,accounts.youtube.com
+DOMAIN-SUFFIX,deviceauth.googleapis.com
+
+# Google 基础访问依赖
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,fonts.googleapis.com
+DOMAIN-SUFFIX,fonts.gstatic.com
+
 IP-ASN,14061,no-resolve
 IP-ASN,20473,no-resolve
 IP-CIDR,24.199.123.28/32,no-resolve
