@@ -102,3 +102,15 @@ DOMAIN-SUFFIX,spark.ru
 DOMAIN-SUFFIX,gazprom.ru
 DOMAIN-SUFFIX,rosneft.ru
 DOMAIN-SUFFIX,ru
+
+# Ozon
+DOMAIN-SUFFIX,ozon.ru
+DOMAIN-SUFFIX,ozonusercontent.com
+DOMAIN-SUFFIX,ozon-st.cdn.ng
+DOMAIN-KEYWORD,ozon
+
+# Wildberries
+DOMAIN-SUFFIX,wildberries.ru
+DOMAIN-SUFFIX,wb.ru
+DOMAIN-SUFFIX,wbstatic.net
+DOMAIN-KEYWORD,wildberries
