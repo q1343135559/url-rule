@@ -3,14 +3,14 @@ desc: AI分流规则，也包括其他主要自定义的分流规则
 
 proxy-groups:
   - name: "AI分组"
-    type: url-test
+    type: fallback
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
     filter: "(?i)(台湾|Taiwan|新加坡|Singapore|美国|United States|USA|America|日本|Japan|韩国|Korea)"
   
   - name: "tiktok分组"
-    type: url-test
+    type: fallback
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
