@@ -9,14 +9,28 @@ proxy-groups:
     include-all: true
     filter: "(?i)(台湾|Taiwan|新加坡|Singapore|美国|United States|USA|America|日本|Japan|韩国|Korea)"
   
+  - name: "tiktok分组"
+    type: url-test
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    include-all: true
+    filter: "^(?!.*(?:香港|Hongkong|Hong kong|Hong Kong|hongkong|HONGKONG|HONG KONG|免费|剩余|到期)).*$"
+
 rule-providers:
   ai-list:
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/q1343135559/url-rule/refs/heads/main/OpenAI.list
+    url: https://raw.githubusercontent.com/q1343135559/url-rule/refs/heads/main/ai.list
+    interval: 86400
+
+  tiktok-list:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/q1343135559/url-rule/refs/heads/main/TikTok.list
     interval: 86400
 
 rules:
   - DOMAIN-SUFFIX,kuajing84.com,DIRECT
   - DOMAIN-SUFFIX,jayogo.com,DIRECT
   - RULE-SET,ai-list,AI分组
+  - RULE-SET,tiktok-ruleset,tiktok分组
