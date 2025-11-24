@@ -33,4 +33,4 @@ rules:
   - DOMAIN-SUFFIX,kuajing84.com,DIRECT
   - DOMAIN-SUFFIX,jayogo.com,DIRECT
   - RULE-SET,ai-list,AI分组
-  - RULE-SET,tiktok-ruleset,tiktok分组
+  - RULE-SET,tiktok-list,tiktok分组
