@@ -3,7 +3,7 @@ desc: 俄区分流规则，若有俄区节点请开启
 
 proxy-groups:
   - name: "俄罗斯分组"
-    type: url-test
+    type: fallback
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
