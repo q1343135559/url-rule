@@ -10,7 +10,7 @@ proxy-groups:
     filter: "(?i)(新加坡|Singapore|美国|United States|USA|America|日本|Japan|韩国|Korea)"
   
   - name: "tiktok分组"
-    type: fallback
+    type: select
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
