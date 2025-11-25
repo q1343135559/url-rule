@@ -7,7 +7,7 @@ proxy-groups:
     url: "http://www.google.com/generate_204"
     interval: 300
     include-all: true
-    filter: "(?i)(台湾|Taiwan|新加坡|Singapore|美国|United States|USA|America|日本|Japan|韩国|Korea)"
+    filter: "(?i)(新加坡|Singapore|美国|United States|USA|America|日本|Japan|韩国|Korea)"
   
   - name: "tiktok分组"
     type: fallback
