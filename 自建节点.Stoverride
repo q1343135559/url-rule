@@ -6,5 +6,6 @@ proxies:
 
 proxy-groups:
   - name: 狗狗加速.com
+    type: select
     proxies:
       - USA-pt6m9rtz
