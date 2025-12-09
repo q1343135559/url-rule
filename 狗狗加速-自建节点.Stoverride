@@ -1,4 +1,4 @@
-name: 自建节点
+name: 狗狗加速-自建节点
 desc: 增加自建节点
 
 proxies:
@@ -7,10 +7,10 @@ proxies:
 proxy-groups:
   - name: ♻️自动选择
     type: select
-    proxies:
+    proxies: #!replace
       - USA-pt6m9rtz
   
   - name: 🔥ChatGPT
     type: select
-    proxies:
+    proxies: #!replace
       - USA-pt6m9rtz
