@@ -5,12 +5,12 @@ proxies:
   - {"type":"vless","name":"USA-pt6m9rtz","server":"www.vidora.asia","port":443,"uuid":"b4c688f0-7b24-4020-9d72-32ba07cca20f","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"bkn9JNdzmxT0Bzhhjn_mAVDhtKxaT1reIHXKiV9dU2o","short-id":"70","_spider-x":"/UI8LRO0LqZANSSU"},"network":"tcp","encryption":"none","servername":"www.apple.com"}
 
 proxy-groups:
-  - name: ♻️自动选择
+  - name: ♻️自动选择 #!replace
     type: select
     proxies: #!replace
       - USA-pt6m9rtz
   
-  - name: 🔥ChatGPT
+  - name: 🔥ChatGPT #!replace
     type: select
     proxies: #!replace
       - USA-pt6m9rtz
