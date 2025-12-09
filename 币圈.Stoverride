@@ -1,0 +1,21 @@
+name: 币圈分流规则
+desc: 币圈分流
+
+proxy-groups:
+  - name: "币圈分组"
+    type: fallback
+    url: "http://www.google.com/generate_204"
+    interval: 300
+    include-all: true
+    filter: "(?i)(台湾|TaiWan|Tai Wan)"
+
+    
+rule-providers:
+  binance-list:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/q1343135559/url-rule/refs/heads/main/binance.list
+    interval: 86400
+
+rules:
+  - RULE-SET,binance-list,币圈分组
