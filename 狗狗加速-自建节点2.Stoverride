@@ -3,4 +3,4 @@ desc: 增加自建节点
 
 
 proxy-groups:
-    - { name: 狗狗加速.com, proxies: [USA-pt6m9rtz] }
+    - { name: 狗狗加速.com, type: select, proxies: [USA-pt6m9rtz] }
