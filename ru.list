@@ -114,25 +114,25 @@ DOMAIN-SUFFIX,wbstatic.net
 DOMAIN-KEYWORD,wildberries
 
 # MegaFon
-- DOMAIN-SUFFIX,megafon.ru
-- DOMAIN-SUFFIX,megalabs.ru
-- DOMAIN-SUFFIX,kion.ru
+DOMAIN-SUFFIX,megafon.ru
+DOMAIN-SUFFIX,megalabs.ru
+DOMAIN-SUFFIX,kion.ru
 
 # YooMoney
-- DOMAIN-SUFFIX,yoomoney.ru
-- DOMAIN-SUFFIX,yookassa.ru
-- DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,yoomoney.ru
+DOMAIN-SUFFIX,yookassa.ru
+DOMAIN-SUFFIX,yandex.ru
 
 # VTB Bank
-- DOMAIN-SUFFIX,vtb.ru
-- DOMAIN-SUFFIX,vtb.com
-- DOMAIN-SUFFIX,vtbconnect.ru
+DOMAIN-SUFFIX,vtb.ru
+DOMAIN-SUFFIX,vtb.com
+DOMAIN-SUFFIX,vtbconnect.ru
 
 # Alfa-Bank
-- DOMAIN-SUFFIX,alfabank.ru
-- DOMAIN-SUFFIX,alfabank.com
-- DOMAIN-SUFFIX,click.alfabank.ru
-- DOMAIN-SUFFIX,alfamobile.ru
+DOMAIN-SUFFIX,alfabank.ru
+DOMAIN-SUFFIX,alfabank.com
+DOMAIN-SUFFIX,click.alfabank.ru
+DOMAIN-SUFFIX,alfamobile.ru
 
 # 补充
 DOMAIN-KEYWORD,megafon
