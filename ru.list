@@ -39,8 +39,6 @@ DOMAIN-SUFFIX,ok.ru
 DOMAIN-SUFFIX,odnoklassniki.ru
 DOMAIN-SUFFIX,mail.ru
 DOMAIN-SUFFIX,rambler.ru
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,t.me
 
 # 电商 / 二手交易
 DOMAIN-SUFFIX,ozon.ru
