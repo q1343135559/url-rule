@@ -21,5 +21,5 @@ script-providers:
   douyinduanjuquguanggao1:
     # 这里需要替换为专门针对抖音去广告编写的 JS 脚本链接
     # 注意：下面的链接仅为示例，你需要使用真实有效的抖音去广告脚本
-    url: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/DouYin.js
+    url: https://raw.githubusercontent.com/q1343135559/url-rule/refs/heads/main/douyin_ads.js
     interval: 86400
