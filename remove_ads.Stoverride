@@ -1,0 +1,25 @@
+#!desc=抖音短剧去广告
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/douyin.png
+#!homepage=https://yfamilys.com
+#!author=HotKids
+name: douyinduanjuquguanggao
+desc: 去除抖音短剧广告
+
+http:
+  mitm:
+    # 允许对 amemv.com 及其所有子域名进行解密
+    - "*.amemv.com"
+  script:
+    # 匹配短剧相关的广告接口或通用广告接口
+    - match: ^https?:\/\/.*\.amemv\.com\/(aweme\/v\d\/ad\/|ads\/|short_video\/ad\/)
+      name: douyinduanjuquguanggao1
+      type: response
+      require-body: true
+      timeout: 10
+
+script-providers:
+  douyinduanjuquguanggao1:
+    # 这里需要替换为专门针对抖音去广告编写的 JS 脚本链接
+    # 注意：下面的链接仅为示例，你需要使用真实有效的抖音去广告脚本
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/DouYin.js
+    interval: 86400
