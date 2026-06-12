@@ -1,0 +1,17 @@
+# >>>致富证券 (Chief Securities) 分流规则<<<
+# 适用客户端: Clash (Rule Provider), Shadowrocket, Quantumult X 等
+
+# 官方主域名：已覆盖全部子域（www / api2 交易API / service 开户 / cdn / common-h5 活动页）
+DOMAIN-SUFFIX,chiefgroup.com.hk
+# 官网首页引用的官方交易平台域名（请勿与 SFC 警示的仿冒相似域名混淆）
+DOMAIN-SUFFIX,chieftrade.com
+
+# 命中托管于阿里云香港 OSS 的官网静态资源桶 chief-website.oss-cn-hongkong.aliyuncs.com
+# 注意：不可改用 DOMAIN-SUFFIX,oss-cn-hongkong.aliyuncs.com，否则会误伤所有阿里云香港 OSS 站点
+DOMAIN-KEYWORD,chief-website
+
+# >>>补充：其他传统老牌港资券商常见域名（可选）<<<
+# 辉立证券 (Phillip)
+DOMAIN-SUFFIX,phillip.com.hk
+# 耀才证券 (Bright Smart)
+DOMAIN-SUFFIX,bsgroup.com.hk
